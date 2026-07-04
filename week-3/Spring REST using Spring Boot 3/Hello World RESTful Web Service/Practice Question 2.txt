@@ -1,0 +1,9 @@
+@GetMapping("/college")
+public String college() {
+
+    LOGGER.info("START");
+
+    LOGGER.info("END");
+
+    return "VIT-AP University";
+}

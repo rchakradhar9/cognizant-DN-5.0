@@ -1,0 +1,15 @@
+@SpringBootApplication
+public class SpringLearnApplication {
+
+    private static final Logger LOGGER =
+            LoggerFactory.getLogger(SpringLearnApplication.class);
+
+    public static void main(String[] args) {
+
+        LOGGER.info("Application Started");
+
+        SpringApplication.run(SpringLearnApplication.class,args);
+
+    }
+
+}

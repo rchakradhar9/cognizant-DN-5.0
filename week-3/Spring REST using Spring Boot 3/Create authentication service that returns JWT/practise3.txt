@@ -1,0 +1,6 @@
+Map<String,String> map = new HashMap<>();
+
+map.put("username","user");
+map.put("token","abcd1234");
+
+return map;

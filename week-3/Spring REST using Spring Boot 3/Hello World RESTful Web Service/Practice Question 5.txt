@@ -1,0 +1,9 @@
+@GetMapping("/course")
+public String course() {
+
+    LOGGER.info("START");
+
+    LOGGER.info("END");
+
+    return "Spring REST";
+}

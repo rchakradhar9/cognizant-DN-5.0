@@ -1,0 +1,2 @@
+<property name="code" value="US"/>
+<property name="name" value="United States"/>

@@ -1,0 +1,3 @@
+<property name="code" value="JP"/>
+
+<property name="name" value="Japan"/>

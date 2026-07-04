@@ -1,0 +1,6 @@
+String token = Jwts.builder()
+        .setSubject("user")
+        .signWith(SignatureAlgorithm.HS256, "secretkey")
+        .compact();
+
+map.put("token", token);

@@ -1,0 +1,9 @@
+@GetMapping("/welcome")
+public String welcome() {
+
+    LOGGER.info("START");
+
+    LOGGER.info("END");
+
+    return "Welcome to Spring Boot";
+}

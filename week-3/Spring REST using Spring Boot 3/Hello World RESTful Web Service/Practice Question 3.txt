@@ -1,0 +1,9 @@
+@GetMapping("/department")
+public String department() {
+
+    LOGGER.info("START");
+
+    LOGGER.info("END");
+
+    return "Computer Science Engineering";
+}

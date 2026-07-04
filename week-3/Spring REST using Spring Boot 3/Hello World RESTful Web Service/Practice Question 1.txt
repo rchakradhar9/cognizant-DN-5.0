@@ -1,0 +1,9 @@
+@GetMapping("/name")
+public String getName() {
+
+    LOGGER.info("START");
+
+    LOGGER.info("END");
+
+    return "Shaik Asin";
+}

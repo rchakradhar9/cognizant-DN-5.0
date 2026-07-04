@@ -1,0 +1,7 @@
+<bean id="country"
+      class="com.cognizant.springlearn.Country">
+
+    <property name="code" value="DE"/>
+    <property name="name" value="Germany"/>
+
+</bean>

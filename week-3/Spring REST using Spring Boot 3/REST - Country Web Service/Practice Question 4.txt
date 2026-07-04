@@ -1,0 +1,8 @@
+@GetMapping("/country")
+public Country getCountryIndia() {
+
+    ApplicationContext context =
+            new ClassPathXmlApplicationContext("country.xml");
+
+    return context.getBean("country", Country.class);
+}
