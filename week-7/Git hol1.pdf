@@ -1,0 +1,361 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 4
+/Kids [ 4 0 R 11 0 R 14 0 R 16 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 3043
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 719.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F2 18 Tf 22 TL 28.6128 0 Td (Git Hands-on Lab 2 - Completed Assignment) Tj T* 108.513 0 Td (\(Reference Format\)) Tj T* -137.1258 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 701.8898 cm
+Q
+q
+1 0 0 1 78 671.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 14 Tf 18 TL (1. Verify master clean state) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 629.8898 cm
+q
+BT 1 0 0 1 0 26 Tm 12 TL /F2 10 Tf 0 0 0 rg (Command\(s\):) Tj /F1 10 Tf  T* /F3 10 Tf (git branch) Tj  T* (git checkout master) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 587.8898 cm
+q
+BT 1 0 0 1 0 26 Tm 12 TL /F2 10 Tf 0 0 0 rg (Expected Output:) Tj /F1 10 Tf  T* /F3 10 Tf (* master) Tj  T* (Already on 'master') Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 579.8898 cm
+Q
+q
+1 0 0 1 78 549.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 14 Tf 18 TL (2. Create GitWork branch) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 507.8898 cm
+q
+BT 1 0 0 1 0 26 Tm 12 TL /F2 10 Tf 0 0 0 rg (Command\(s\):) Tj /F1 10 Tf  T* /F3 10 Tf (git checkout -b GitWork) Tj  T* (touch hello.xml) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 477.8898 cm
+q
+BT 1 0 0 1 0 14 Tm 12 TL /F2 10 Tf 0 0 0 rg (Expected Output:) Tj /F1 10 Tf  T* /F3 10 Tf (Switched to a new branch 'GitWork') Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 469.8898 cm
+Q
+q
+1 0 0 1 78 439.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 14 Tf 18 TL (3. Update hello.xml) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 397.8898 cm
+q
+BT 1 0 0 1 0 26 Tm 12 TL /F2 10 Tf 0 0 0 rg (Command\(s\):) Tj /F1 10 Tf  T* /F3 10 Tf (echo ") Tj (Updated content from GitWork branch) Tj (" > hello.xml) Tj  T* (git status) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 343.8898 cm
+q
+BT 1 0 0 1 0 38 Tm 12 TL /F2 10 Tf 0 0 0 rg (Expected Output:) Tj /F1 10 Tf  T* /F3 10 Tf (On branch GitWork) Tj  T* (Untracked files:) Tj  T* (hello.xml) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 335.8898 cm
+Q
+q
+1 0 0 1 78 305.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 14 Tf 18 TL (4. Commit) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 263.8898 cm
+q
+BT 1 0 0 1 0 26 Tm 12 TL /F2 10 Tf 0 0 0 rg (Command\(s\):) Tj /F1 10 Tf  T* /F3 10 Tf (git add hello.xml) Tj  T* (git commit -m "Updated hello.xml in GitWork branch") Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 233.8898 cm
+q
+BT 1 0 0 1 0 14 Tm 12 TL /F2 10 Tf 0 0 0 rg (Expected Output:) Tj /F1 10 Tf  T* /F3 10 Tf ([GitWork abc123] Updated hello.xml in GitWork branch) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 225.8898 cm
+Q
+q
+1 0 0 1 78 195.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 14 Tf 18 TL (5. Switch master) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 165.8898 cm
+q
+BT 1 0 0 1 0 14 Tm 12 TL /F2 10 Tf 0 0 0 rg (Command\(s\):) Tj /F1 10 Tf  T* /F3 10 Tf (git checkout master) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 135.8898 cm
+q
+BT 1 0 0 1 0 14 Tm 12 TL /F2 10 Tf 0 0 0 rg (Expected Output:) Tj /F1 10 Tf  T* /F3 10 Tf (Switched to branch 'master') Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 127.8898 cm
+Q
+q
+1 0 0 1 78 97.88976 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 14 Tf 18 TL (6. Create hello.xml) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 691.8898 595.2756 150 re
+f*
+0 0 0 rg
+BT
+/F2-0 22 Tf
+26.4 TL
+ET
+BT
+1 0 0 1 246.9058 761.8898 Tm
+(GIT HOL1) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/Contents 12 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 13 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+12 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Length 782
+>>
+stream
+GauI5;/_pX&BE]*.8G.4O[:di!.1Zo[E1HY>;m:2&'H#M1#Ndc7Z>oRIJ=\8U`g[&5uhG%Cu*eDhu.p,"GU_`4\5kIhM:D7!b?m)!Q$l%Ih#EWlIQcN4WP=Ye'VIQF6*gEOAjMD'lsG*VP_]$67*hM>0'OBLdAZ5=Vg)W6<c*tmtTd#gh`n$^`U[\<KAuQ99MP,e!0/O=fRuB(QFT2_a'3hLWU$&_)'/a[@d[SM]aCh`]AX>K*C=`)9l79)A,]Veqan*NbJ9pU.!?>*_Waf`K?g*/>YT=)TWeeJm<4Akg3jeHWmmFR\H'ZV%tSCDP^Z\FK"cV7-DkZ&o_>-+:,mbiN5dAab4X<KA/)UH[`d$-L!ft0Xc<OY2="h+cW]hq#SN8GD^QIg"X"iHWPt_O#sg>?Jf"Y#sRH*N5n&Y.Ee^W`C7"'j?'/j(U>f,2b6$r(#)cY<nhjlY+qF6/@:2smJZfl6ZFi.4g0?C"Mp6DdumHJR/"[ZkD&s3[6KfZJI**6#D_\)rYX<Oq0P0XZRG+mf5g6d*Ips9g"&N]Yte_NDdhhVIS0D([8KL&RM398lLq"aLkVBXAldqY4bjn1WXCnL=BlUU^>MeoLhW1_dqMP+)rKI>af9)7ji\cH3R\/p.BIKsPIYn02r0bB^]&(Yi=#25-9Dctk>8=uA"RJaC;k'/]s/e&NhT",MkNloH01s%$ap@BYree:O``+-O.U(VO*A=NN9.#P1`%pi9g7)^9GnEiQSgO&q/60KSOj@+V@HBG&EWarCUj3K($<]f~>
+endstream
+endobj
+13 0 obj
+<<
+/F1 6 0 R
+/F2 8 0 R
+/F3 10 0 R
+>>
+endobj
+14 0 obj
+<<
+/Contents 15 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 13 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+15 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Length 636
+>>
+stream
+GauI5?#Q2d'L:RI/$A`5<iUp0!RnONA(.5KdjD(YXF$VK"13Rr2H,,)N(MJD)IA=[A18/&fB2iL?P<j>);+qo$K+$tG98MH+-JM>!!SHh_c=#;\\O]YLdFL=6to?>$kk<nn9,O_-<,0b[9:QUm.Ca3G-i,<04\(Z28<@q]Ap5-803N;fdoZhbS/Yl/[Icrd])Z!bqhZ'n^WSH(2ktOePd][(*(&1]'8ioE,Or5[$f$R;OsjEa@06(oMh)n3kV:N#_`lI!Iq!#hgsU671ZI1g2CPZ$%d(^amtd;]fQYl9U9L'[$8j6KQo8tgI-JXBqWKIfn`gN-^@3A"K`k'<D\4=0B$tdS-1>t=r0F$Vj^N/%o-u6A4(1+4g!XUF0bRkDBebb/=8VAm_PC7mIr)1>-sCQ77?/X0EUQL%H:7F5rdQm$GiXAQE>]7PWa2LPJEg6ps/PH<GU9m*0:IA(=koGigH<CZm+n$?\q3Aoo[d8IGqVC?U6ApOo:&i4fHMq3qb`"Hf]=WW__g+3WQ1?0qm+.F+,,,B[j%(9XYi_3,d97jhgg0_T-2a&*:L$EO"G8o&4naSr\T>Q0mVTTfRb`DKXB]UREm)XGJ.2'W'1%Y/B,/P2MSBDN.u,@.>0t4/Nq~>
+endstream
+endobj
+16 0 obj
+<<
+/Contents 17 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 13 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+17 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Length 341
+>>
+stream
+Gat=e9i&Y\%#46L'gB'i>3`Mi.0h,+*?6CLUe"a:$#N38r?BE1IQhWde(C@Ma\ibpIdJL@6;3.%X?(l9%Mrm`>QTBY9VW<s"q'dHGdu)D(h?2Z0pXUn:k0g9W.H;YS:!\XQ@SL).!B2:pr2DE.k>C[gt?[[Y6*X#h]5uHn-+*ZhXagSPuI73&Ui3F]sc7>H$:0!,ciB!'/VhESVCT9UAdITNUQ'OGNoCJVLSB.8$LRXBV?Hr>kcDMcQ16ccul(d97L.MInW:F4+TX6%_Z\$0Bo<l(`U&%=Udi&3D5d3:&2Qs/O20S@l]eQ6ZKF>Y<0"sdZhR!?'61E&A0Y)8"A<~>
+endstream
+endobj
+xref
+0 18
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000134 00000 n 
+0000000183 00000 n 
+0000000449 00000 n 
+0000003544 00000 n 
+0000003651 00000 n 
+0000003758 00000 n 
+0000003870 00000 n 
+0000003982 00000 n 
+0000004088 00000 n 
+0000004290 00000 n 
+0000005164 00000 n 
+0000005217 00000 n 
+0000005419 00000 n 
+0000006147 00000 n 
+0000006349 00000 n 
+trailer
+<<
+/Size 18
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+6782
+%%EOF

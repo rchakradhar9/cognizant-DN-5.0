@@ -1,0 +1,345 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 1
+/Kids [ 4 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F1-1 8 0 R
+/F1-2 9 0 R
+/F2 10 0 R
+/F2-0 11 0 R
+/F2-1 12 0 R
+/F3 13 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 3064
+>>
+stream
+q
+q
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 719.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F2 18 Tf 22 TL 45.1098 0 Td (Git HOL 5 - Cleanup and Push to Remote) Tj T* 122.031 0 Td (\(Completed\)) Tj T* -167.1408 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 701.8898 cm
+Q
+q
+1 0 0 1 78 671.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 14 Tf 18 TL (Step 1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 641.8898 cm
+q
+BT 1 0 0 1 0 14 Tm 12 TL /F2 10 Tf 0 0 0 rg (Command:) Tj /F1 10 Tf  T* /F3 10 Tf (git status) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 599.8898 cm
+q
+BT 1 0 0 1 0 26 Tm 12 TL /F2 10 Tf 0 0 0 rg (Expected Output:) Tj /F1 10 Tf  T* /F3 10 Tf (On branch master) Tj  T* (nothing to commit, working tree clean) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 591.8898 cm
+Q
+q
+1 0 0 1 78 561.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 14 Tf 18 TL (Step 2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 531.8898 cm
+q
+BT 1 0 0 1 0 14 Tm 12 TL /F2 10 Tf 0 0 0 rg (Command:) Tj /F1 10 Tf  T* /F3 10 Tf (git branch) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 489.8898 cm
+q
+BT 1 0 0 1 0 26 Tm 12 TL /F2 10 Tf 0 0 0 rg (Expected Output:) Tj /F1 10 Tf  T* /F3 10 Tf (* master) Tj  T* (GitWork) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 481.8898 cm
+Q
+q
+1 0 0 1 78 451.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 14 Tf 18 TL (Step 3) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 421.8898 cm
+q
+BT 1 0 0 1 0 14 Tm 12 TL /F2 10 Tf 0 0 0 rg (Command:) Tj /F1 10 Tf  T* /F3 10 Tf (git pull origin master) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 391.8898 cm
+q
+BT 1 0 0 1 0 14 Tm 12 TL /F2 10 Tf 0 0 0 rg (Expected Output:) Tj /F1 10 Tf  T* /F3 10 Tf (Already up to date.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 383.8898 cm
+Q
+q
+1 0 0 1 78 353.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 14 Tf 18 TL (Step 4) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 323.8898 cm
+q
+BT 1 0 0 1 0 14 Tm 12 TL /F2 10 Tf 0 0 0 rg (Command:) Tj /F1 10 Tf  T* /F3 10 Tf (git push origin master) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 245.8898 cm
+q
+BT 1 0 0 1 0 62 Tm 12 TL /F2 10 Tf 0 0 0 rg (Expected Output:) Tj /F1 10 Tf  T* /F3 10 Tf (Enumerating objects...) Tj  T* (Counting objects...) Tj  T* (Writing objects...) Tj  T* (To https://gitlab.com/user/GitDemo.git) Tj  T* (abc123..def456 master -> master) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 237.8898 cm
+Q
+q
+1 0 0 1 78 207.8898 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 14 Tf 18 TL (Step 5) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 177.8898 cm
+q
+BT 1 0 0 1 0 14 Tm 12 TL /F2 10 Tf 0 0 0 rg (Command:) Tj /F1 10 Tf  T* /F3 10 Tf (Open GitLab repository) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 147.8898 cm
+q
+BT 1 0 0 1 0 14 Tm 12 TL /F2 10 Tf 0 0 0 rg (Expected Output:) Tj /F1 10 Tf  T* /F3 10 Tf (Latest commit is visible in the remote repository.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 139.8898 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 751.8898 595.2756 70 re
+f*
+0 0 0 rg
+BT
+/F2-0 22 Tf
+26.4 TL
+ET
+BT
+1 0 0 1 246.9058 793.8898 Tm
+(Git HOL 5) Tj
+T*
+ET
+Q
+
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-1 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 711.8898 595.2756 110 re
+f*
+Q
+
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-2 12 Tf
+14.4 TL
+ET
+0 0 0 rg
+BT
+/F2-1 22 Tf
+26.4 TL
+ET
+BT
+1 0 0 1 246.9058 796.8898 Tm
+(GIT HOL5) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+13 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 14
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000113 00000 n 
+0000000162 00000 n 
+0000000467 00000 n 
+0000003583 00000 n 
+0000003690 00000 n 
+0000003797 00000 n 
+0000003904 00000 n 
+0000004011 00000 n 
+0000004124 00000 n 
+0000004237 00000 n 
+0000004350 00000 n 
+trailer
+<<
+/Size 14
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+4456
+%%EOF
